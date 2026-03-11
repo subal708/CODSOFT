@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="Landing-style.css">
+    <!-- fontawsome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"> <span>
+                    < / >
+                </span> CodeMaster</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="signup-btn">Sign Up</button>
+        </nav>
+    </header>
+
+    <!-- All Content -->
+    <div class="content">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-text">
+                <h1>Learn Programming<br>the Smart Way</h1>
+
+                <p>
+                    Master Python, Java, and Web Development through real
+                    projects and expert guidance.
+                </p>
+
+                <div class="hero-buttons">
+                    <button class="primary-btn">Start Learning</button>
+                    <a href="#courses"><button class="secondary-btn">View Courses</button></a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="./images/coding_classes_kids.png" alt="coding student">
+            </div>
+        </section>
+
+        <!-- Courses -->
+        <section class="courses" id="courses">
+            <h2>Popular Courses</h2>
+            <p class="subtitle">Choose from our most loved courses</p>
+
+            <div class="course-container">
+
+                <div class="course-card">
+                    <div class="icon-box"><i class="fa-brands fa-python"></i></div>
+                    <h3>Python Programming</h3>
+                    <p>Learn Python from basics to advanced concepts including data structures and algorithms.</p>
+                    <a href="#">Learn More →</a>
+                </div>
+
+                <div class="course-card">
+                    <div class="icon-box"><i class="fa-solid fa-globe"></i></div>
+                    <h3>Web Development</h3>
+                    <p>Build modern websites with HTML, CSS, JavaScript, React, and backend technologies.</p>
+                    <a href="#">Learn More →</a>
+                </div>
+
+                <div class="course-card">
+                    <div class="icon-box"><i class="fa-brands fa-java"></i></div>
+                    <h3>Java Programming</h3>
+                    <p>Master Java programming for enterprise applications and Android development.</p>
+                    <a href="#">Learn More →</a>
+                </div>
+
+                <div class="course-card">
+                    <div class="icon-box"><i class="fa-solid fa-database"></i></div>
+                    <h3>Data Structures</h3>
+                    <p>Understand core data structures and algorithms to ace coding interviews.</p>
+                    <a href="#">Learn More →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose us -->
+
+        <section class="why" id="features">
+            <div class="container">
+                <h2 class="title">Why Choose Us</h2>
+                <p class="subtitle">Everything you need to succeed in your coding journey</p>
+
+                <div class="card-wrapper">
+
+                    <div class="card">
+                        <div class="icon-circle">📁</div>
+                        <h3>Project-Based Learning</h3>
+                        <p>Learn by building real-world projects that you can add to your portfolio.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="icon-circle">👨‍🏫</div>
+                        <h3>Expert Mentors</h3>
+                        <p>Get guidance from industry professionals with years of experience.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="icon-circle">∞</div>
+                        <h3>Lifetime Access</h3>
+                        <p>Access course materials anytime, anywhere with no time limits.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="icon-circle">🏅</div>
+                        <h3>Certificate of Completion</h3>
+                        <p>Earn recognized certificates to showcase your new skills.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <div class="contact-container">
+                <h2>Contact Us</h2>
+                <p class="contact-sub">Have questions? We’d love to hear from you.</p>
+
+                <form class="contact-form">
+                    <div class="input-row">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Start Coding -->
+        <section class="cta">
+            <div class="cta-content">
+                <h2>Start Your Coding Journey Today</h2>
+                <p>Join thousands of students learning to code the smart way</p>
+                <button class="cta-btn">Join Now</button>
+            </div>
+        </section>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-col brand">
+                <h3><span class="code-icon">&lt;/&gt;</span> CodeMaster</h3>
+                <p>Your trusted platform for learning programming through real projects and expert guidance.</p>
+                <div class="email">
+                    <i class="fa-regular fa-envelope"></i>
+                    hello@codemaster.com
+                </div>
+            </div>
+
+            <div class="footer-col links">
+                <h4>Quick Links</h4>
+                <a href="#">Courses</a>
+                <a href="#">Features</a>
+                <a href="#">Reviews</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="footer-col social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 CodeMaster. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+
+</html>
