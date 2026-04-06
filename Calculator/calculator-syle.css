@@ -105,3 +105,10 @@ button:hover {
     font-weight: 700;
     font-size: 1.2rem;
 }
+
+/* Responsive Design */
+@media (max-width: 319px) {
+    body{
+        width: 319px;
+    }
+}
